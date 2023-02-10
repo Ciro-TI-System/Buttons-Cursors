@@ -12,3 +12,18 @@ body {
   height: 100vh;
   gap: 16px;
 }
+
+.primary {
+  --bg-default: #8257e5;
+  --bg-hover: #9674e5;
+}
+
+.secondary {
+  --bg-default: #3c3748;
+  --bg-hover: #6a617f;
+}
+
+.tertiary {
+  --bg-default: transparent;
+  --bg-hover: transparent;
+}
