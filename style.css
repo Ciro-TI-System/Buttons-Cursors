@@ -13,6 +13,30 @@ body {
   gap: 16px;
 }
 
+#app {
+  max-width: 360px;
+  padding-inline: 40px;
+}
+
+h1 {
+  font-family: "Inter";
+  color: white;
+  font-size: 32px;
+}
+
+p {
+  margin-top: 8px;
+  color: white;
+  font-family: "Roboto";
+  opacity: 0.67;
+}
+
+.buttons {
+  margin-top: 100px;
+  display: grid;
+  gap: 32px;
+}
+
 .primary {
   --bg-default: #8257e5;
   --bg-hover: #9674e5;
