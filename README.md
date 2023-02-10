@@ -1,7 +1,7 @@
 <h1 align="center"> Botões e Cursores </h1>
 
 <p align="center">
-Tela de documentação de botões.
+Tela de documentação de botões com tipos e propriedades de cada um deles.
 </p>
 
 <p align="center">
@@ -28,6 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 - Git e Github
+- Phosphor-icons
 - Figma
 
 ## 💻 Projeto
