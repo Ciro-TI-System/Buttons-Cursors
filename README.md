@@ -18,7 +18,7 @@ Tela de documentação de botões com tipos e propriedades de cada um deles.
 <br>
 
 <p align="center">
-  <img alt="projeto Botões e Cursores" src="" width="100%">
+  <img alt="projeto Botões e Cursores" src=".github\Botões-e-Cursores.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
