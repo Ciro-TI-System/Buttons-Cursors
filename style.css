@@ -83,3 +83,29 @@ button:disabled {
   opacity: 0.56;
   cursor: not-allowed;
 }
+
+.loading {
+  cursor: progress;
+}
+
+.loading i {
+  font-size: 16px;
+  animation: spin 700ms infinite linear;
+}
+
+.movable {
+  cursor: move;
+}
+
+.movable i {
+  font-size: 18px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

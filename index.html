@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Botões e Cursores</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
   </head>
   <body>
     <div id="app">
@@ -21,11 +22,25 @@
       </p>
 
       <div class="buttons">
-        <button class="primary">interaja comigo</button>
-        <button class="secondary">interaja comigo</button>
-        <button class="tertiary movable">interaja comigo</button>
+        <button class="primary" onclick="loading(event)">
+          interaja comigo</button>
+        <button class="secondary" disabled>interaja comigo</button>
+        <button class="tertiary movable">
+          <i class="ph-list"></i>
+          interaja comigo</button>
       </div>
     </div>
-    <script></script>
+
+    <script>
+      function loading(event) {
+        const button = event.currentTarget
+        button.classList.add('loading')
+        const text = button.textContent
+        button.innerHTML = `
+        <i class="ph-circle-notch"></i>
+        ${text}
+        `
+      }
+    </script>
   </body>
 </html>
